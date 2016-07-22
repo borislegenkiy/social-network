@@ -1,0 +1,47 @@
+/*Страница*/
+#content_wrap {
+	height: 500px;
+}
+/*Навигация прав*/
+#rights {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	left: 300px;
+	top: 100px;
+}
+#rights_block {
+	position: relative;
+	width: 500px;
+	height: 300px;
+}
+
+#rights_block p{
+	float: left;
+	width: 500px;
+	text-align: right;
+}
+#rights_block a{
+	float: right;
+	width: 150px;
+	text-align: left;
+}
+#rights_select_div {
+	position: absolute;
+}
+#admin_select_div {
+	position: absolute;
+}
+#admin_select {
+	position: relative;
+	width: 130px;
+}
+#rights_select {
+	position: relative;
+	width: 210px;
+	cursor: pointer;
+}
+#title_rights {
+	position: relative;
+	text-align: center;
+}

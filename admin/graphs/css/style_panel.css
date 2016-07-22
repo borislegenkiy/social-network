@@ -1,0 +1,421 @@
+/*Страница*/
+#content_wrap {
+	height: auto;
+}
+/*Аватарка с кнопкой*/
+#avatar {
+	position: relative;
+	height: 490px;
+	width: 280px;
+}
+#avatar_image {
+	position: relative;
+	width: 270px;
+	height: 400px;
+}
+#load_image {
+	width: 250px;
+	margin-top: 10px;
+	margin-bottom: 12px;
+	padding: .4em;
+	margin-left: 10px;
+	background: #bababa;
+	color: white;
+	cursor: pointer;
+}
+
+/*Поля ввода и кнопка*/
+#info_user {
+	position: relative;
+	width: 600px;
+	height: auto;
+	left: 300px;
+	margin-top: -490px;
+	float: left;
+}
+.field {
+	clear: both;
+	text-align: right;
+}
+#info_user label {
+	float: left;
+	line-height: 25px;
+}
+.text {
+	margin-bottom: 12px;
+	width: 450px;
+	height: 30px;
+	padding: .4em;
+	color: #7d4bd9;
+	border: 1px solid #696969;
+	background: #F5F5F5;
+}
+#field_send {
+	position: relative;
+	left: 150px;
+	top: 10px;
+}
+#send {
+	width: 250px;
+	height: 30px;
+	background: #bababa;
+	color: white;
+	cursor: pointer;
+}
+.mini_text {
+	margin-bottom: 12px;
+	position: relative;
+	padding: .4em;
+	color: #7d4bd9;
+	border: 1px solid #696969;
+	background: #F5F5F5;
+	width: 50px;
+	height: 25px;
+}
+.medium_text {
+	margin-bottom: 12px;
+	position: relative;
+	padding: .4em;
+	color: #7d4bd9;
+	border: 1px solid #696969;
+	background: #F5F5F5;
+	width: 320px;
+	height: 25px;
+}
+#place_for_checkbox {
+	position: relative;
+	float: right;
+	width: 200px;
+}
+/*graphs*/
+#graph_head {
+	position: relative;
+	padding: 5px;
+	left: 10px;
+	width: 870px;
+	height: 40px;
+	text-align: center;
+	font-size: 24px;
+	color: blue;
+}
+#graph_content {
+	position: relative;
+	padding: 5px;
+	left: 10px;
+	top: 10px;
+	width: 870px;
+	height: auto;
+	text-align: center;
+	font-size: 24px;
+	color: blue;
+}
+.day {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 70px;
+	border: 1px solid;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 24px;
+	color: white;
+	background: blue;
+	float: left;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	border: 1px solid black;
+}
+.worked_day {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 70px;
+	border: 1px solid;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 24px;
+	color: white;
+	background: gray;
+	float: left;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid black;
+}
+.truancy_day {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 70px;
+	border: 1px solid;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 24px;
+	color: white;
+	background: red;
+	float: left;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	border: 1px solid black;
+}
+.another_day {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 70px;
+	border: 1px solid;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 24px;
+	color: white;
+	background: gray;
+	float: left;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	border: 1px solid black;
+}
+.not_display_day {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 70px;
+	border: 1px solid;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 24px;
+	color: white;
+	background: #f0f0f3;
+	float: left;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	border: 1px solid #f0f0f3;
+}
+.week {
+	position: relative;
+}
+#all_days {
+	position: relative;
+	top: -10px;
+	left: 10px;
+}
+.head_day {
+	position: relative;
+	background: #543dab;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	-webkit-border-radius: 2px 2px;
+	-moz-border-radius: 2px 2px;
+	border-radius: 2px 2px;
+}
+.not_display_head {
+	position: relative;
+	background: #f0f0f3;
+	width: 100px;
+	height: 30px;
+	-webkit-border-radius: 2px 2px;
+	-moz-border-radius: 2px 2px;
+	border-radius: 2px 2px;
+}
+#sun_icon {
+	position: relative;
+	float: left;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+#night_icon {
+	position: relative;
+	float: right;
+	top: 2px;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.task_img {
+	position: relative;
+	top: -26px;
+	left: 23px;
+	width:15px;
+	height: 15px;
+	cursor: pointer;
+}
+.number_of_month {
+	position: relative;
+	width: 96px;
+	height: 30px;
+	text-align: center;
+}
+.content_day {
+	position: relative;
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+}
+.place_days_in_week {
+	position: relative;
+	width: 870px;
+	height: 40px;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+.days_in_week {
+	position: relative;
+	width: 95px;
+	margin-left: 15px;
+	height: 20px;
+	padding: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+#arrow_left {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	float: left;
+	cursor: pointer;
+}
+#arrow_right {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	float: right;
+	cursor: pointer;
+}
+#month_and_year {
+	position: relative;
+	width: 790px;
+	line-height: 40px;
+	float: left;
+	vertical-align: middle;
+	display: inline;
+}
+#staff_menu {
+	position: relative;
+	width: 647px;
+	height: auto;
+	text-align: left;
+	z-index: 1000;
+	overflow-y: auto;
+}
+#staff_menu_head {
+	position: relative;
+	display: table;
+	width: 635px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	overflow-y: auto;
+	padding: 5px;
+	background: gray;
+}
+#staff_menu_content {
+	position: relative;
+	width: 635px;
+	height: 200px;
+	vertical-align: middle;
+	overflow-y: auto;
+	padding: 5px;
+}
+.staff {
+	position: relative;
+	display: inline;
+	float: left;
+	width: 370px;
+	height: 30px;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 14px;
+}
+.staff_post {
+	position: relative;
+	display: inline;
+	float: right;
+	width: 170px;
+	height: 30px;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 10px;
+}
+.staff_container {
+	position: relative;
+	display: table;
+	vertical-align: middle;
+	width: 607px;
+	height: 30px;
+	background: #f0f0f3;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 5px;
+}
+.staff_container:hover {
+	position: relative;
+	display: table;
+	vertical-align: middle;
+	width: 607px;
+	height: 30px;
+	background: #f0f0a3;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 5px;
+}
+#exit_button {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	float: right;
+	text-decoration: none;
+}
+.staff_status {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	float:left;
+	text-decoration: none;
+	padding: 3px;
+}
+#data_and_shift {
+	position: relative;
+	padding: 5px;
+	float: left;
+	display: table;
+	width: 590px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+}
+#count_staffs {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	color: green;
+	display: table-row;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 10;
+}
+#sun_img,#night_img {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	font-size: 17px;
+}

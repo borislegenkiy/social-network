@@ -1,0 +1,65 @@
+#main {
+	position: absolute;
+	float: center;
+	width: 400px;
+	height: 200px;
+	left: 50%;
+	margin-top: 100px;
+	margin-left: -200px;
+	border: 2px solid #CCCCCC;
+	background: #5D478B;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#block_pad {
+	padding: 5px 5px 5px 5px;
+}
+#login_field, #password_field {
+	float: left;
+	left: 10px;
+	top: 10px;
+	width: 260px;
+	height: 40px;
+	position: relative;
+}
+#main h1 {
+	color: #FFE1FF;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+}
+#login, #password {
+	width: 150px;
+	height: 30px;
+	margin-left: 5px;
+	padding: 0px 2px;
+	color: #7d4bd9;
+}
+#button_field {
+	position: relative;
+	float: left;
+	top:-22px;
+	left: 10px;
+}
+#check{
+	width: 105px;
+	height: 51px;
+}
+#content {
+	position: relative;
+	float: left;
+	width: 400px;
+	height: 40px;
+	top: -13px;
+	text-align: center;
+	vertical-align:middle;
+	line-height: 30px;
+	color: #FFE1FF;
+}
+label {
+	float: left;
+	width: 80px;
+	text-align: right;
+	position: relative;
+	margin-top: 5px;
+	color:#F8F8FF;
+}

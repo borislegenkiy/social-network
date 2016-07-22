@@ -1,0 +1,175 @@
+/* Диалоги */
+#dialog_add_user  label {
+	padding: .4em;
+}
+#dialog_add_user  label {
+	float: left;
+	width: 20%;
+	text-align: left;
+	position: relative;
+	margin-top: 5px;
+	margin-right: 25px;
+}
+#dialog_add_user  input.text,#dialog_add_user  select {
+	margin-bottom: 12px;
+	width: 69%;
+	padding: .4em;
+}
+#dialog_add_department  input.text, #dialog_edit_department  input.text {
+	margin-bottom: 12px;
+	width: 60%;
+	padding: .4em;
+}
+.users_mail_text {
+	position: relative;
+	color: black;
+}
+#box_for_mail, #box_for_users {
+	margin: 10px;
+	width: 700px;
+}
+#box_for_theme  label {
+	margin: 10px;
+	display: block;
+}
+#box_for_theme  input {
+	margin: 10px;
+	display: block;
+	padding: .4em;
+	width: 700px;
+}
+
+/* Главная страница*/
+#vertical_menu_place  {
+	position: relative;
+	left: 10px;
+	top: 10px;
+	width: 225px;
+	height: 75px;
+}
+#user_table_place{
+	position: relative;
+	margin-top: -75px;
+	left: 260px;
+	width: 630px;
+}
+#department_table_place   {
+	position: relative;
+	left: 260px;
+	width: 630px;
+}
+#user_table_place  a ,#department_table_place  a {
+	color: blue;
+}
+#table_inscription {
+	position: relative;
+	text-align: center;
+}
+#vertical_menu {
+	position: relative;
+	width: 200px;
+	margin: 10px;
+	font-size: 12px;
+}
+#vertical_menu li a {
+	height: 32px;
+	  voice-family: "\"}\"";
+	  voice-family: inherit;
+	  height: 24px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+#add_user,#send_mail_text , #add_department,#create_graphs{
+	color: #FFF;
+	display: block;
+	background:  url(../../images/menu.gif);
+	padding: 8px 0 0 10px;
+}
+#vertical_menu li a:hover, #vertical_menu li #current {
+	color: #FFF;
+	background: url(../../images/menu.gif) 0 -32px;
+	padding: 8px 0 0 10px;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#users_table,#department_table {
+	font-size: 11px;
+	color: #000000;
+}
+
+/* Таблица */
+table.tablesorter {
+	font-family: arial;
+	background-color: #CDCDCD;
+	margin: 10px 0pt 15px;
+	font-size: 8pt;
+	width: 95%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #B5B5B5;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+#fio_th.header {
+	background-image: url(../../images/table/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+#post_th.header {
+	background-image: url(../../images/table/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+#login_th.header {
+	background-image: url(../../images/table/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+#fio_th.headerSortUp {
+	background-image: url(../../images/table/asc.gif);
+}
+#post_th.headerSortUp {
+	background-image: url(../../images/table/asc.gif);
+}
+#login_th.headerSortUp {
+	background-image: url(../../images/table/asc.gif);
+}
+#fio_th.headerSortDown {
+	background-image: url(../../images/table/desc.gif);
+}
+#post_th.headerSortDown {
+	background-image: url(../../images/table/desc.gif);
+}
+#login_th.headerSortDown {
+	background-image: url(../../images/table/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #A9A9A9;
+}
+.link_not_active {
+	text-decoration:none;
+	color: gray;
+}
+.link_not_active:hover {
+	text-decoration:none;	
+	color: gray;
+}
+

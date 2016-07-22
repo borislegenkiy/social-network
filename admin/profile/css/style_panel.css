@@ -1,0 +1,89 @@
+/*Страница*/
+#content_wrap {
+	height: auto;
+}
+/*Аватарка с кнопкой*/
+#avatar {
+	position: relative;
+	height: 490px;
+	width: 280px;
+}
+#avatar_image {
+	position: relative;
+	width: 270px;
+	height: 400px;
+}
+#load_image {
+	width: 250px;
+	margin-top: 10px;
+	margin-bottom: 12px;
+	padding: .4em;
+	margin-left: 10px;
+	background: #bababa;
+	color: white;
+	cursor: pointer;
+}
+
+/*Поля ввода и кнопка*/
+#info_user {
+	position: relative;
+	width: 600px;
+	height: auto;
+	left: 300px;
+	margin-top: -490px;
+	float: left;
+}
+.field {
+	clear: both;
+	text-align: right;
+}
+#info_user label {
+	float: left;
+	line-height: 25px;
+}
+.text {
+	margin-bottom: 12px;
+	width: 450px;
+	height: 30px;
+	padding: .4em;
+	color: #7d4bd9;
+	border: 1px solid #696969;
+	background: #F5F5F5;
+}
+#field_send {
+	position: relative;
+	left: 150px;
+	top: 10px;
+}
+#send {
+	width: 250px;
+	height: 30px;
+	background: #bababa;
+	color: white;
+	cursor: pointer;
+}
+.mini_text {
+	margin-bottom: 12px;
+	position: relative;
+	padding: .4em;
+	color: #7d4bd9;
+	border: 1px solid #696969;
+	background: #F5F5F5;
+	width: 50px;
+	height: 25px;
+}
+.medium_text {
+	margin-bottom: 12px;
+	position: relative;
+	padding: .4em;
+	color: #7d4bd9;
+	border: 1px solid #696969;
+	background: #F5F5F5;
+	width: 320px;
+	height: 25px;
+}
+#place_for_checkbox {
+	position: relative;
+	float: right;
+	width: 200px;
+}
